@@ -9,6 +9,6 @@ repos:
       - id: shellcheck
         args: ["--severity=error"]
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0 # Use the ref you want to point at
+    rev: v6.0.0 # Use the ref you want to point at
     hooks:
       - id: check-executables-have-shebangs
